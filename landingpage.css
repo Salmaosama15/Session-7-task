@@ -1,0 +1,97 @@
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 5px;
+}
+
+nav {
+  background-color: rgb(200, 228, 241);
+  padding: 10px;
+  margin-bottom: 7px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 7px;
+  margin: 0px;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+nav a {
+  color: rgb(30, 96, 112);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(209, 223, 19);
+}
+
+span {
+  color: rgb(63, 100, 110);
+}
+main {
+  margin-top: 2px;
+  background-color: rgb(105, 180, 209);
+  padding: 150px;
+  display: flex;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: left;
+  color: rgb(24, 39, 52);
+  flex: 1;
+}
+
+.pmain {
+  font-size: 1.2em;
+  text-align: left;
+  color: rgb(19, 35, 47);
+  max-width: 60%;
+  display: flex;
+  flex: 1;
+}
+
+.read-more {
+  background-color: white;
+  border: none;
+  color: #264f68;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.resize {
+  max-width: 40%; /* Adjust value as needed */
+  max-height: 200px; /* Adjust value as needed */
+  object-fit: cover;
+  justify-items: right;
+  display: flex;
+  margin: 7px;
+}
+.aboutus {
+  margin-top: 2px;
+  background-color: rgb(198, 201, 202);
+  padding: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.pabout {
+  font-size: 1.2em;
+  text-align: left;
+  color: rgb(19, 35, 47);
+  max-width: 60%;
+}
+
+.abouttext {
+  flex: 1;
+  padding: 20 px;
+}
