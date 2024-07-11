@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(184, 159, 207);
+}
+table {
+  color: rgb(13, 80, 116);
+  background-color: rgb(168, 239, 168);
+}
+p {
+  background-color: rgb(148, 101, 177);
+}
+video {
+  width: 500 px;
+  height: 400px;
+  align-items: center;
+  margin: 40 px;
+}
